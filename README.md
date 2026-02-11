@@ -25,11 +25,6 @@ The study is structured into three logical parts for clear understanding:
 * **Key Derivations:** Mathematical derivation of the necessary conditions for **stationarity** and the **unconditional intensity** $\mathbb{E}[\lambda(t)]$.
 * **Exponential Kernel:** Focusing on the widely used **exponential decay kernel** $\phi(t) = \alpha e^{-\beta t}$.
 
-### 3. Implementation & Parameter Estimation (MLE)
-
-* **Log-Likelihood Function:** Detailed derivation of the Log-Likelihood expression required for parameter inference.
-* **Maximum Likelihood Estimation (MLE):** Practical demonstration of parameter estimation $(\mu, \alpha, \beta)$ using the `HawkesPyLib` library.
-* **Critical Analysis:** Discussion on the **limits and challenges** of applying the standard Hawkes model to complex financial time series.
 
 ## Technical Requirements
 
